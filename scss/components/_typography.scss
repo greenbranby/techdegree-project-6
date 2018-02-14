@@ -1,7 +1,7 @@
 /* Typography Styles --------------------- */
 
 .container {
-  padding-top: 50px;
+  padding-top: 20px;
   @extend %marg-auto;
   font-family: $stack-mado;
   width: 90%;
@@ -17,23 +17,3 @@
     max-width: 768px;
   }
 }
-// .text-color--mobile {
-//   @include mq(small){
-//   font-weight: $font-wt-bold;
-//   color: orange;
-// }
-// @include mq(medium){
-//   font-weight: $font-wt-bold;
-//  }
-// }
-
-// .text-color--mobile2 {
-//   @include mq(small){
-//   font-weight: $font-wt-bold;
-//
-// }
-// @include mq(medium){
-//   font-weight: $font-wt-bold;
-//   color: orange;
-//  }
-// }

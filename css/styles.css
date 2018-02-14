@@ -405,7 +405,7 @@ ul {
 
 span:hover {
   cursor: pointer;
-  color: orange; }
+  color: #ff8200; }
 
 .container, .video {
   margin: 0 auto; }
@@ -1077,7 +1077,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 /* End: Error */
 /* Typography Styles --------------------- */
 .container {
-  padding-top: 50px;
+  padding-top: 20px;
   font-family: "Mada", sans-serif;
   width: 90%;
   max-width: em(1400px); }
