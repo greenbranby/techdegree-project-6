@@ -1,0 +1,102 @@
+// Font stack
+
+$font-url             : "https://fonts.googleapis.com/css?family=Mada:200,300,400,500,600";
+$stack-mado     :  'Mada', sans-serif;
+
+// Font Weight
+
+$font-wt-thin        : 200;
+$font-wt-light       : 300;
+$font-wt-regular     : 400;
+$font-wt-bold        : 500;
+$font-wt-bolder      : 600;
+
+// Font size
+$base-font-size: 18px;
+
+// Color Values
+$white      : #fff;
+$black      : #000;
+$grey        : #878787;
+
+// Theme colors
+$viking      :#58e1c1; // headline and form border color
+$malibu     : #5fe0fc;  //Links and .grid__col--4
+$feijoa     :#88d980; // green or success button and .grid__col--5
+$anakiwa     :#7ee6fd;   // blue and default button
+$sunglo     :#e4757a;  // faded red and error button
+$coral     :#fd7856; // orange and warning button
+$purple     :#927bc1; // purple and info button
+$pale-yellow    :#fff3d8; // .grid__col--1
+$teal    : #2f6f7c;  // .grid__col--2
+$lavendar     :#deb2ee; // .grid__col--3.theme__colors
+$malibu     : #5fe0fc;  // .grid__col--4
+$shakespeare     :#3fabca;  // .grid__col--6
+$sea-pink       :#ec9fa3;  // .grid__col--7
+$tangerine        :#fd9f85; // .grid__col--8
+$orchid       :#d747d5; // .grid__col--9
+$hot-pink    :#ff0066; // .grid__col--10
+$neon     :#ebff00; //  .grid__col--11
+$turquoise    :#8ff0cb; // .grid__col--12
+
+// Grid Colors
+
+$grid-colors: (
+  $pale-yellow,   //grid__col--1 (placeholder color)
+  $teal,      //grid__col--2 (placeholder color)
+    $lavendar,   //grid__col--3
+    $malibu,    //grid__col--4
+     $feijoa,    //grid__col--5
+    $shakespeare,   //grid__col--6
+    $sea-pink,    //grid__col--7
+    $tangerine,   //grid__col--8
+    $orchid,  //grid__col--9  (placeholder color)
+    $hot-pink,     //grid__col--10 (placeholder color)
+    $neon,    //grid__col--11 (placeholder color)
+    $turquoise //grid__col--12
+);
+
+
+// Color Usage
+$color--primary      : $teal;
+$color-secondary    :$malibu;
+
+
+// Color Palette modifiers
+$palettes: (
+  grey:  (
+    xx-light : lighten($grey, 45%),
+    x-light: lighten($grey, 35%),
+    base: $grey,
+    dark:  darken ($grey, 8%),
+    x-dark : darken ($grey, 16%),
+  )
+);
+
+// UI colors
+
+$ui-colors: (
+  default : $anakiwa,
+  success: $feijoa,
+  error: $sunglo,
+  warning: $coral,
+  info: $purple,
+);
+
+// Asset paths
+
+$pat-img        :'../images';
+
+
+// grid
+
+$g-col-width: 65px;
+$g-gutter-width: 20px;
+$g-col-count  : 12;
+$g-cont-max-w: 1050px;
+
+
+// Breakpoint
+$brk-sm : 1px;
+$brk-md : 768px;
+$brk-lg : 1100px;

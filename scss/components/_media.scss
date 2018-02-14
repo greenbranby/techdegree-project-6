@@ -1,0 +1,30 @@
+// --------Media Styles -----------------//
+
+.video {
+  @extend %marg-auto;
+  @extend %dis-blk;
+}
+
+video,
+.mejs__container {
+  border-radius: 0.625em;
+}
+
+.mejs__time-total .mejs__time-slider {
+  background: #fff;
+}
+.mejs__controls {
+    background: rgba(255, 255, 255, 0.5) !important;
+}
+
+.mejs__volume-button > .mejs__volume-slider {
+  background: rgba(255, 130, 0, 0.5) !important;
+}
+
+.mejs__volume-total {
+    background: rgba(255, 130, 0, 0.5) !important;
+  }
+
+.mejs__time-total {
+    background:  rgb(255, 130, 0) !important;
+  }

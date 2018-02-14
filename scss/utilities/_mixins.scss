@@ -1,0 +1,23 @@
+
+//Media Query Mixins
+
+    @mixin mq ($break) {
+      @if $break =="small" {
+        @media (min-width: $brk-sm) and (max-width: $brk-md) {
+       @content;
+    }
+ }
+     @else if $break == "medium" {
+       @media (min-width: $brk-md + 1) {
+         @content;
+   }
+ }
+     @else if $break == "large"{
+       @media (min-width: $brk-lg){
+         @content;
+   }
+ }
+     @else {
+       @error "Whoops! No value could be retrieved for #{$break}";
+  }
+}

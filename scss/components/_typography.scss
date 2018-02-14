@@ -1,0 +1,39 @@
+/* Typography Styles --------------------- */
+
+.container {
+  padding-top: 50px;
+  @extend %marg-auto;
+  font-family: $stack-mado;
+  width: 90%;
+  max-width: em(1400px);
+}
+
+.caption-text {
+  font-weight: $font-wt-bold;
+}
+
+.container {
+  @include mq(medium){
+    max-width: 768px;
+  }
+}
+// .text-color--mobile {
+//   @include mq(small){
+//   font-weight: $font-wt-bold;
+//   color: orange;
+// }
+// @include mq(medium){
+//   font-weight: $font-wt-bold;
+//  }
+// }
+
+// .text-color--mobile2 {
+//   @include mq(small){
+//   font-weight: $font-wt-bold;
+//
+// }
+// @include mq(medium){
+//   font-weight: $font-wt-bold;
+//   color: orange;
+//  }
+// }
