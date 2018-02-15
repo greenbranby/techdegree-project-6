@@ -1,7 +1,6 @@
 // --------Media Styles -----------------//
 
 .video {
-  @extend %marg-auto;
   @extend %dis-blk;
 }
 
@@ -28,3 +27,5 @@ video,
 .mejs__time-total {
     background:  rgb(255, 130, 0) !important;
   }
+
+.st0 {fill:#FF8200;}

@@ -407,7 +407,7 @@ span:hover {
   cursor: pointer;
   color: #ff8200; }
 
-.container, .video {
+.container {
   margin: 0 auto; }
 
 .video {
@@ -1107,5 +1107,8 @@ video,
 
 .mejs__time-total {
   background: #ff8200 !important; }
+
+.st0 {
+  fill: #FF8200; }
 
 /*# sourceMappingURL=styles.css.map */
