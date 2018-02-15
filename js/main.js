@@ -3,7 +3,7 @@ $('video').mediaelementplayer({
 });
 // Get the <video> element with id="myVideo"
 const video = document.querySelector('video');
-const span = document.getElementsByClassName('caption-text');
+const span = document.getElementsByClassName('transcript');
 
 
 //Listen for the video to start playing
