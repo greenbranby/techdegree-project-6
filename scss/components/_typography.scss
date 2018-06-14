@@ -1,11 +1,63 @@
 /* Typography Styles --------------------- */
 
 .container {
-  padding-top: 20px;
   @extend %marg-auto;
-  font-family: $stack-mado;
+  padding-top: 20px;
+  font-family: $stack-mada;
   width: 90%;
-  max-width: em(1400px);
+  max-width: 1024px;
+  padding: 50px;
+}
+
+
+.info {
+@extend %marg-auto;
+  @include mq(medium) {
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  width: 650px;
+	font-size: 18px;
+  font-weight: $font-wt-regular;
+  color: $grey;
+	line-height: 2;
+  @include mq(small){
+    font-size: 16px;
+    max-width: 220px;
+    font-weight: $font-wt-bold;
+    line-height: 1.5;
+  }
+}
+
+
+h2 {
+  margin: auto;
+  font-size: 30px;
+  color: #fff;
+  font-weight: $font-wt-bold;
+  padding-top: 85px;
+  height: 180px;
+  background-color: #333741;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+  color: $color--primary;
+    @include mq(medium) {
+      max-width: 768px;
+      font-size: 50px;
+      font-weight: $font-wt-thin;
+    }
+    @include mq(small){
+      margin-top:20px;
+      font-size: 22px;
+      max-width: 200px;
+      font-weight: $font-wt-bold;
+    }
 }
 
 .caption-text {

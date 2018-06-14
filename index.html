@@ -4,14 +4,26 @@
     <meta charset="utf-8">
     <title>Interactive Video Player</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
-        <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
+    <header>
+      <h2>Interactive Video Player</h2>
+
+      <ul class="info">
+        <h1>Project Highlights</h1>
+        <li>Implemented mediaelement.js library</li>
+        <li>Embedded 2 video formats using HTML</li>
+        <li>Added transcript using HTML tags</li>
+        <li>Used a mobile first approach</li>
+        <li>When the user clicks on any sentence in the transcript the video player jumps to the appropriate time in the video</li>
+        <li>Customizes the media player skin</li>
+        <li>Used CSS pre-processor SASS</li>
+      </ul>
+    </header>
 
     <div class="container">
+
       <div class="video"  >
             <video style="width: 100%; height: 100%" preload="auto">
                 <source src="video/video.mp4" type="video/mp4" >
@@ -19,6 +31,8 @@
                   Your browser does not support the video tag.
             </video>
       </div>
+
+
       <div class="transcript">
         <div class="caption-text">
         <p>
