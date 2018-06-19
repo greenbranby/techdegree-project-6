@@ -395,16 +395,16 @@ template {
   box-sizing: border-box; }
 
 body {
-  background-color: #fafafa; }
+  background-color: #FFD9C3; }
 
 p {
   font-size: 16px;
   line-height: 1.5; }
 
 header {
-  height: 680px;
-  background-color: #FED3AF;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.0975); }
+  margin: 0 auto;
+  height: 100px;
+  background-color: #333741; }
 
 /* Lists------------------ */
 ul {
@@ -416,15 +416,16 @@ span:hover {
   color: #ff8200; }
 
 li {
+  font-size: 16px;
   margin-left: 20px;
-  padding-left: 20px; }
+  padding-left: 20px;
+  line-height: 1.2em; }
 
 @media (min-width: 768px) {
   ul.info {
     margin-top: 50px;
-    padding-left: 30px;
-    border-left: 5px solid #ff8200; } }
-.container, .info {
+    padding-left: 30px; } }
+.container {
   margin: 0 auto; }
 
 .video {
@@ -1094,63 +1095,40 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 /* End: Error */
 /* Typography Styles --------------------- */
 .container {
-  padding-top: 20px;
   font-family: "Mada", sans-serif;
-  width: 90%;
-  max-width: 1024px;
-  padding: 50px; }
+  width: 100%;
+  padding: 30px;
+  background-color: #FFD9C3;
+  max-width: 1440px; }
 
-.info {
-  width: 650px;
-  font-size: 18px;
-  font-weight: 400;
-  color: #383938;
-  line-height: 2; }
-  @media (min-width: 769px) {
-    .info {
-      max-width: 768px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center; } }
-  @media (min-width: 1px) and (max-width: 768px) {
-    .info {
-      font-size: 16px;
-      max-width: 220px;
-      font-weight: 500;
-      line-height: 1.5; } }
+.project-info {
+  padding: 0 50px 30px;
+  margin: 0 auto;
+  height: auto;
+  margin-bottom: 30px;
+  max-width: 768px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(0, 0, 0, 0.0975); }
+
+.video-section {
+  max-width: 768px;
+  margin: 0 auto; }
 
 h2 {
   margin: auto;
-  font-size: 30px;
+  font-size: 26px;
   color: #fff;
-  font-weight: 500;
-  padding-top: 85px;
-  height: 180px;
-  background-color: #333741;
+  font-weight: 400;
+  padding-top: 45px;
   text-align: center; }
 
-h1 {
-  margin-bottom: 0;
-  margin-top: 0;
-  color: #383938; }
-  @media (min-width: 769px) {
-    h1 {
-      max-width: 768px;
-      font-size: 50px;
-      font-weight: 200; } }
-  @media (min-width: 1px) and (max-width: 768px) {
-    h1 {
-      margin-top: 20px;
-      font-size: 22px;
-      max-width: 200px;
-      font-weight: 500; } }
+.subhead {
+  font-size: 22px;
+  font-weight: 200;
+  text-align: center; }
 
 .caption-text {
   font-weight: 500; }
-
-@media (min-width: 769px) {
-  .container {
-    max-width: 768px; } }
 
 .mejs__time-total .mejs__time-slider {
   background: #fff; }
