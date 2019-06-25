@@ -540,6 +540,8 @@ button a,
 .small-button {
   margin: 0 auto;
   width: 50%;
+  background-color: #fd8223;
+  display: block;
 }
 
 @media (min-width: 768px) {
@@ -548,8 +550,8 @@ button a,
   }
 
   .small-button {
-    margin: 0 auto;
-    width: 20%;
+    background-color: #fd8223;
+    width: 30%;
   }
 
   h3 {
@@ -558,7 +560,7 @@ button a,
 
   button {
     display: block;
-    margin: 50px auto;
+    margin: 50px 0 0 30px;
   }
 
   body {
@@ -571,11 +573,11 @@ button a,
 }
 @media (min-width: 1100px) {
   header {
-    background-color: #e4e4e4;
+    background-color: #fd8223;
   }
 
   .footer {
-    height: 200px;
+    height: 150px;
   }
 
   .footer p {
@@ -597,6 +599,11 @@ button a,
 
   #button2 {
     display: none;
+  }
+
+  .small-button {
+    background-color: #5b5b5b;
+    width: 20%;
   }
 }
 .video {
@@ -1388,7 +1395,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   padding-top: 20px;
   width: auto;
   font-family: "SofiaProSoft", sans-serif;
-  background: linear-gradient(180deg, #fff 40%, #5b5b5b 50%);
+  background: linear-gradient(-180deg, #fff 40%, #5b5b5b 50%);
 }
 @media (min-width: 769px) {
   .container {
@@ -1437,7 +1444,7 @@ h2 {
   letter-spacing: 0.5px;
   color: #ccc;
   width: 300px;
-  font-weight: 700;
+  font-weight: 600;
   padding: 50px 0 30px 0;
   text-align: center;
 }
@@ -1446,22 +1453,23 @@ h2 {
     margin: 0 auto;
     font-size: 46px;
     letter-spacing: 1px;
-    color: #000;
+    color: #fff;
     padding: 50px 0;
     width: 1240px;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
   }
 }
 
 #title {
   margin: 0;
-  font-size: 21px;
+  font-size: 24px;
   color: #000;
   width: auto;
   font-weight: 700;
   padding: 0px;
-  text-align: center;
+  text-align: left;
+  padding-left: 30px;
 }
 @media (min-width: 1100px) {
   #title {
@@ -1470,25 +1478,24 @@ h2 {
     width: 800px;
     font-weight: 700;
     padding: 0 0 0 50px;
-    text-align: left;
   }
 }
 
 .subhead {
   color: #666;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
   letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 20px 0 -10px 0;
 }
 @media (min-width: 1100px) {
   .subhead {
     color: #666;
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 700;
-    text-align: left;
     padding-left: 50px;
-    margin: 20px 0 -10px 0;
   }
 }
 
@@ -1787,7 +1794,7 @@ h2 {
 }
 @media (min-width: 1100px) {
   .grid__col--8 {
-    padding: 20px 0;
+    padding: 5px 0;
     max-width: 600px;
   }
 }

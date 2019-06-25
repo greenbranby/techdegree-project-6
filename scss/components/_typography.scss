@@ -5,7 +5,7 @@
   padding-top: 20px;
   width: auto;
   font-family: $stack-sofia;
-  background: linear-gradient(180deg, #fff 40%,#5b5b5b 50%);
+  background: linear-gradient(-180deg, #fff 40%,#5b5b5b 50%);
     
     @include mq(medium){
     margin: 0 auto;  
@@ -51,7 +51,7 @@ h2 {
   letter-spacing: .5px;
   color: #ccc;
   width: 300px;
-  font-weight: $font-wt-boldest;
+  font-weight: $font-wt-bolder;
   padding: 50px 0 30px 0;
   text-align: center;
 
@@ -59,22 +59,23 @@ h2 {
     margin: 0 auto;
     font-size: 46px;
     letter-spacing: 1px;
-    color: #000;
+    color: #fff;
     padding: 50px 0;
     width: 1240px;
-    font-weight: $font-wt-boldest;
+    font-weight: $font-wt-bolder;
     text-align: center;
   }  
 }
 
 #title {
   margin: 0;
-  font-size: 21px;
+  font-size: 24px;
   color: #000;
   width: auto;
   font-weight: $font-wt-boldest;
   padding: 0px;
-  text-align: center;
+  text-align: left;
+  padding-left: 30px;
     
   @include mq(large){
     font-size: 40px;
@@ -82,24 +83,23 @@ h2 {
     width: 800px;
     font-weight: $font-wt-boldest;
     padding: 0 0 0 50px;
-    text-align: left;
   }
 }
 
 .subhead {
   color: #666;
-  font-size:18px;
+  font-size:16px;
   font-weight: $font-wt-boldest;
-  text-align: center;
+  text-align: left;
   letter-spacing: 1px;
+  text-transform: uppercase;
+    margin: 20px 0 -10px 0;
 
   @include mq(large){
     color: #666;
-    font-size:30px;
+    font-size:18px;
     font-weight: $font-wt-boldest;
-    text-align: left;
     padding-left: 50px;
-      margin: 20px 0 -10px 0;
   }
 }
 

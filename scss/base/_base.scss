@@ -109,6 +109,8 @@ button a,
 .small-button {
     margin: 0 auto;
     width: 50%;
+    background-color: #fd8223;
+    display:block;
 }
 
 @media (min-width:768px){
@@ -117,15 +119,15 @@ button a,
     }
     
    .small-button {
-    margin: 0 auto;
-    width: 20%;
-} 
+    background-color: #fd8223;
+       width: 30%;   
+    } 
     h3 {
         text-align:center;  
     }
     button{
         display: block;
-        margin: 50px auto;
+        margin: 50px 0 0 30px;
     }
     body {
         background-color: #ccc;
@@ -137,10 +139,10 @@ button a,
 
 @media (min-width:1100px){
  header{
-   background-color: #e4e4e4;
+   background-color: #fd8223;
      }
     .footer {
-        height: 200px;
+        height: 150px;
    }
     .footer p{
       text-transform: uppercase;
@@ -159,4 +161,8 @@ button a,
     #button2{
         display: none;
     }
+    .small-button {
+    background-color: #5b5b5b;
+       width: 20%;   
+    } 
    }
