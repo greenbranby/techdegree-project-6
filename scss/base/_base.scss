@@ -74,13 +74,24 @@ button {
   width: 60%;
   margin: 30px auto;
   border: 0;
+  display: none;
+  background-color: #fd8223;
+  text-decoration: none;
+  padding: 0px;
+}
+
+#button2 {
+  width: 60%;
+  margin: 30px auto;
+  border: 0;
   display: block;
   background-color: #fd8223;
   text-decoration: none;
   padding: 0px;
 }
 
-#button-text {
+#button-text,
+#button-text2 {
   margin: 0;
   padding: 20px;
   color: #fff;
@@ -89,7 +100,8 @@ button {
   text-transform: uppercase;
 }
 
-button a {
+button a,
+#button2 a{
   text-decoration: none;
   color: #fff;
 }
@@ -112,10 +124,14 @@ button a {
         text-align:center;  
     }
     button{
+        display: block;
         margin: 50px auto;
     }
     body {
         background-color: #ccc;
+    }
+     #button2{
+        display: none;
     }
 }
 
@@ -137,6 +153,10 @@ button a {
         padding-left: 50px;
     }
     button {
+        display: block;
         margin: 50px 0 0 50px;
+    }
+    #button2{
+        display: none;
     }
    }
