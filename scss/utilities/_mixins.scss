@@ -1,3 +1,46 @@
+// BEM selectors
+@mixin e($element) {
+  &__#{$element}{
+  @content;
+ }
+}
+
+@mixin m($modifier) {
+  &--#{$modifier}{
+  @content;
+ }
+}
+
+
+
+// Grid color Mixins
+@mixin bg-colors($map) {
+@each $theme, $color in $map {
+  &--#{$theme} {
+    background-color: $color;
+   }
+ }
+}
+
+@mixin grid-bg-color {
+    @each $color in $grid-colors {
+        $index: index($grid-colors, $color);
+
+        &--#{$index}.theme__colors {
+            background-color: $color;
+        }
+    }
+}
+
+//FLEX MIXIN
+
+@mixin flex ($display: flex, $dir: null, $wrap: null, $just: null){
+    display: $display;
+    flex-direction: $dir;
+    flex-wrap: $wrap;
+    justify-content: $just;
+    @content;
+}
 
 //Media Query Mixins
 
@@ -20,4 +63,17 @@
      @else {
        @error "Whoops! No value could be retrieved for #{$break}";
   }
+}
+
+// Grid columns
+@mixin g-columns {
+    @for $i from 1 through $g-col-count {
+          $context:  g-context($g-col-width, $g-col-count, $g-gutter-width) !global;
+          $target: ($g-col-width * $i) + ($g-gutter-width * ($i - 1));
+          // generate column modifier classes
+
+        &--#{$i} {
+            width: percentage($target / $context);
+          }
+        }
 }

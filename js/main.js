@@ -25,15 +25,15 @@ video.addEventListener("timeupdate", () => {
 
               // If the conditions are met, set the span’s color property
               //  to the highlighted color. #ff8200,
-              // and if not, set the span’s color back to its initial color. #383938.
+              // and if not, set the span’s color back to its initial color. #fff.
               span[i].style.color ="#ff8200";
           } else {
-              span[i].style.color = '#383938';
+              span[i].style.color = '#fff';
          }
   });
 
  //loops through span tags
-  for (i = 0; i < span.length; i += 1) { 
+  for (i = 0; i < span.length; i += 1) {
 
       // Attach a click event to the span (transcript),
       // when clicked anywhere
