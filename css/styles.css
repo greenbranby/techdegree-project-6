@@ -439,6 +439,7 @@ template {
 }
 
 body {
+  padding: 0;
   margin: 0 auto;
   height: 100%;
   background-color: #5b5b5b;
@@ -1403,7 +1404,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 }
 @media (min-width: 1100px) {
   .video-section {
-    padding-right: 90px;
+    padding: 0 50px;
   }
 }
 
@@ -1425,7 +1426,7 @@ h2 {
     letter-spacing: 1px;
     color: #000;
     padding: 50px 0;
-    width: 1440px;
+    width: 1240px;
     font-weight: 700;
     text-align: center;
   }
