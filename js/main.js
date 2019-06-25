@@ -44,3 +44,4 @@ video.addEventListener("timeupdate", () => {
         video.play();
   })
 }
+

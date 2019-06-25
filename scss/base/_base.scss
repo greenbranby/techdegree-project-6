@@ -109,6 +109,7 @@ button a,
 .small-button {
     margin: 0 auto;
     width: 50%;
+    background-color: #fd8223;
     display:block;
 }
 
@@ -118,8 +119,10 @@ button a,
     }
     
    .small-button {
+    background-color: #5b5b5b;
     margin: 0 auto;
     width: 20%;
+      
 } 
     h3 {
         text-align:center;  
@@ -138,7 +141,7 @@ button a,
 
 @media (min-width:1100px){
  header{
-   background-color: #e4e4e4;
+   background-color: #fd8223;
      }
     .footer {
         height: 200px;
