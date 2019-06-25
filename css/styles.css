@@ -550,9 +550,8 @@ button a,
   }
 
   .small-button {
-    background-color: #5b5b5b;
-    margin: 0 auto;
-    width: 20%;
+    background-color: #fd8223;
+    width: 30%;
   }
 
   h3 {
@@ -561,7 +560,7 @@ button a,
 
   button {
     display: block;
-    margin: 50px auto;
+    margin: 50px 0 0 30px;
   }
 
   body {
@@ -578,7 +577,7 @@ button a,
   }
 
   .footer {
-    height: 200px;
+    height: 150px;
   }
 
   .footer p {
@@ -600,6 +599,11 @@ button a,
 
   #button2 {
     display: none;
+  }
+
+  .small-button {
+    background-color: #5b5b5b;
+    width: 20%;
   }
 }
 .video {
@@ -1790,28 +1794,8 @@ h2 {
 }
 @media (min-width: 1100px) {
   .grid__col--8 {
-    padding: 20px 0;
+    padding: 5px 0;
     max-width: 600px;
-  }
-}
-
-.slide-left {
-  width: 100%;
-  overflow: hidden;
-}
-
-.slide-left p {
-  animation: slide-left 1s;
-}
-
-@keyframes slide-left {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
   }
 }
 

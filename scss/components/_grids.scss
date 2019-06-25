@@ -77,29 +77,8 @@
   min-width: 300px;
  
   @include mq(large){
-    padding: 20px 0;
+    padding: 5px 0;
     max-width: 600px;
-  }
-}
-
-
-.slide-left {
-  width:100%;
-  overflow:hidden;
-}
-.slide-left p {
-  animation: slide-left 1s;
-}
-
-@keyframes slide-left {
-  from {
-    margin-left: 100%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
   }
 }
 
