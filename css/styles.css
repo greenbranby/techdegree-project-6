@@ -13,7 +13,8 @@ html {
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  /* 2 */
+}
 
 /* Sections
    ========================================================================== */
@@ -21,7 +22,8 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 /**
  * Add the correct display in IE 9-.
@@ -32,7 +34,8 @@ footer,
 header,
 nav,
 section {
-  display: block; }
+  display: block;
+}
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -40,7 +43,8 @@ section {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0;
+}
 
 /* Grouping content
    ========================================================================== */
@@ -52,13 +56,15 @@ figcaption,
 figure,
 main {
   /* 1 */
-  display: block; }
+  display: block;
+}
 
 /**
  * Add the correct margin in IE 8.
  */
 figure {
-  margin: 1em 40px; }
+  margin: 1em 40px;
+}
 
 /**
  * 1. Add the correct box sizing in Firefox.
@@ -70,7 +76,8 @@ hr {
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -80,7 +87,8 @@ pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */ }
+  /* 2 */
+}
 
 /* Text-level semantics
    ========================================================================== */
@@ -92,7 +100,8 @@ a {
   background-color: transparent;
   /* 1 */
   -webkit-text-decoration-skip: objects;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
@@ -104,21 +113,24 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   text-decoration: underline dotted;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
 b,
 strong {
-  font-weight: inherit; }
+  font-weight: inherit;
+}
 
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
 b,
 strong {
-  font-weight: bolder; }
+  font-weight: bolder;
+}
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -130,26 +142,30 @@ samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Add the correct font style in Android 4.3-.
  */
 dfn {
-  font-style: italic; }
+  font-style: italic;
+}
 
 /**
  * Add the correct background and color in IE 9-.
  */
 mark {
   background-color: #ff0;
-  color: #000; }
+  color: #000;
+}
 
 /**
  * Add the correct font size in all browsers.
  */
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
@@ -160,13 +176,16 @@ sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
 /* Embedded content
    ========================================================================== */
@@ -175,26 +194,30 @@ sup {
  */
 audio,
 video {
-  display: inline-block; }
+  display: inline-block;
+}
 
 /**
  * Add the correct display in iOS 4-7.
  */
 audio:not([controls]) {
   display: none;
-  height: 0; }
+  height: 0;
+}
 
 /**
  * Remove the border on images inside links in IE 10-.
  */
 img {
-  border-style: none; }
+  border-style: none;
+}
 
 /**
  * Hide the overflow in IE.
  */
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 /* Forms
    ========================================================================== */
@@ -214,7 +237,8 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Show the overflow in IE.
@@ -223,7 +247,8 @@ textarea {
 button,
 input {
   /* 1 */
-  overflow: visible; }
+  overflow: visible;
+}
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -232,7 +257,8 @@ input {
 button,
 select {
   /* 1 */
-  text-transform: none; }
+  text-transform: none;
+}
 
 /**
  * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
@@ -240,36 +266,40 @@ select {
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-html [type="button"],
-[type="reset"],
-[type="submit"] {
+html [type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
-  padding: 0; }
+  padding: 0;
+}
 
 /**
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText; }
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
 
 /**
  * Correct the padding in Firefox.
  */
 fieldset {
-  padding: 0.35em 0.75em 0.625em; }
+  padding: 0.35em 0.75em 0.625em;
+}
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -289,7 +319,8 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */ }
+  /* 1 */
+}
 
 /**
  * 1. Add the correct display in IE 9-.
@@ -299,48 +330,54 @@ progress {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove the default vertical scrollbar in IE.
  */
 textarea {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
-[type="checkbox"],
-[type="radio"] {
+[type=checkbox],
+[type=radio] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type="search"] {
+[type=search] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
@@ -350,7 +387,8 @@ textarea {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */ }
+  /* 2 */
+}
 
 /* Interactive
    ========================================================================== */
@@ -360,13 +398,15 @@ textarea {
  */
 details,
 menu {
-  display: block; }
+  display: block;
+}
 
 /*
  * Add the correct display in all browsers.
  */
 summary {
-  display: list-item; }
+  display: list-item;
+}
 
 /* Scripting
    ========================================================================== */
@@ -374,13 +414,15 @@ summary {
  * Add the correct display in IE 9-.
  */
 canvas {
-  display: inline-block; }
+  display: inline-block;
+}
 
 /**
  * Add the correct display in IE.
  */
 template {
-  display: none; }
+  display: none;
+}
 
 /* Hidden
    ========================================================================== */
@@ -388,48 +430,162 @@ template {
  * Add the correct display in IE 10-.
  */
 [hidden] {
-  display: none; }
+  display: none;
+}
 
 /* Base Styles --------------------- */
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
-  background-color: #FFD9C3; }
+  margin: 0 auto;
+  height: 100%;
+  background-color: #5b5b5b;
+}
 
 p {
-  font-size: 16px;
-  line-height: 1.5; }
+  color: #666;
+  padding: 0 30px;
+  font-family: "SofiaProSoft", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
 
-header {
-  margin: 0 auto;
-  height: 100px;
-  background-color: #333741; }
+h3 {
+  font-size: 14px;
+  color: #666;
+  margin-top: 0;
+  text-align: center;
+}
 
 /* Lists------------------ */
 ul {
   list-style-type: circle;
-  padding: 0; }
+  padding: 0;
+}
 
 span:hover {
   cursor: pointer;
-  color: #ff8200; }
+  color: #ff8200;
+}
 
 li {
   font-size: 16px;
   margin-left: 20px;
   padding-left: 20px;
-  line-height: 1.2em; }
+  line-height: 1.2em;
+}
+
+header {
+  background-color: #000;
+  width: 100%;
+  height: 250px;
+  border-bottom: 1px solid #ccc;
+}
+
+.footer {
+  background-color: #000;
+  width: 100%;
+  height: 150px;
+  font-family: "SofiaProSoft", sans-serif;
+}
+
+.footer p {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  padding: 30px 0 0 15px;
+}
+
+button {
+  width: 60%;
+  margin: 0 auto;
+  border: 0;
+  display: block;
+  background-color: #fd8223;
+  text-decoration: none;
+  padding: 0px;
+}
+
+#button-text {
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.small-button {
+  margin: 0 auto;
+  width: 50%;
+}
 
 @media (min-width: 768px) {
-  ul.info {
-    margin-top: 50px;
-    padding-left: 30px; } }
-.container {
-  margin: 0 auto; }
+  p {
+    font-size: 16px;
+  }
 
+  .small-button {
+    margin: 0 auto;
+    width: 20%;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  button {
+    margin: 50px 0 0 50px;
+  }
+
+  body {
+    background-color: #ccc;
+  }
+}
+@media (min-width: 1100px) {
+  header {
+    background-color: #e4e4e4;
+  }
+
+  .footer {
+    height: 250px;
+  }
+
+  .footer p {
+    text-transform: uppercase;
+    padding: 60px 15px;
+    color: #fff;
+    font-size: 15px;
+  }
+}
 .video {
-  display: block; }
+  display: block;
+}
+
+/* Float Clearfix ------------------ */
+.grid .group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grid__col--12.theme__colors, .grid__col--11.theme__colors, .grid__col--10.theme__colors, .grid__col--9.theme__colors, .grid__col--8.theme__colors, .grid__col--7.theme__colors, .grid__col--6.theme__colors, .grid__col--5.theme__colors, .grid__col--4.theme__colors, .grid__col--3.theme__colors, .grid__col--2.theme__colors, .grid__col--1.theme__colors {
+  padding: 10px 25px;
+  border: 1px solid #000;
+  font-size: 1em;
+  font-weight: 500;
+  display: block;
+}
 
 /* Accessibility: hide screen reader texts (and prefer "top" for RTL languages).
 Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-how/ */
@@ -444,19 +600,22 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   padding: 0;
   position: absolute;
   width: 1px;
-  word-wrap: normal; }
+  word-wrap: normal;
+}
 
 .mejs__container {
   background: #000;
   box-sizing: border-box;
-  font-family: 'Helvetica', Arial, serif;
+  font-family: "Helvetica", Arial, serif;
   position: relative;
   text-align: left;
   text-indent: 0;
-  vertical-align: top; }
+  vertical-align: top;
+}
 
 .mejs__container * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /* Hide native play button and control bar from iOS to favor plugin button */
 .mejs__container video::-webkit-media-controls,
@@ -464,26 +623,31 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 .mejs__container video::-webkit-media-controls-panel-container,
 .mejs__container video::-webkit-media-controls-start-playback-button {
   -webkit-appearance: none;
-  display: none !important; }
+  display: none !important;
+}
 
 .mejs__fill-container,
 .mejs__fill-container .mejs__container {
   height: 100%;
-  width: 100%; }
+  width: 100%;
+}
 
 .mejs__fill-container {
   background: transparent;
   margin: 0 auto;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+}
 
 .mejs__container:focus {
-  outline: none; }
+  outline: none;
+}
 
 .mejs__iframe-overlay {
   height: 100%;
   position: absolute;
-  width: 100%; }
+  width: 100%;
+}
 
 .mejs__embed,
 .mejs__embed body {
@@ -492,10 +656,12 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   margin: 0;
   overflow: hidden;
   padding: 0;
-  width: 100%; }
+  width: 100%;
+}
 
 .mejs__fullscreen {
-  overflow: hidden !important; }
+  overflow: hidden !important;
+}
 
 .mejs__container-fullscreen {
   bottom: 0;
@@ -504,18 +670,21 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   position: fixed;
   right: 0;
   top: 0;
-  z-index: 1000; }
+  z-index: 1000;
+}
 
 .mejs__container-fullscreen .mejs__mediaelement,
 .mejs__container-fullscreen video {
   height: 100% !important;
-  width: 100% !important; }
+  width: 100% !important;
+}
 
 /* Start: LAYERS */
 .mejs__background {
   left: 0;
   position: absolute;
-  top: 0; }
+  top: 0;
+}
 
 .mejs__mediaelement {
   height: 100%;
@@ -523,7 +692,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 0; }
+  z-index: 0;
+}
 
 .mejs__poster {
   background-position: 50% 50%;
@@ -532,14 +702,17 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   left: 0;
   position: absolute;
   top: 0;
-  z-index: 1; }
+  z-index: 1;
+}
 
 :root .mejs__poster-img {
-  display: none; }
+  display: none;
+}
 
 .mejs__poster-img {
   border: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 .mejs__overlay {
   -webkit-box-align: center;
@@ -556,26 +729,32 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   justify-content: center;
   left: 0;
   position: absolute;
-  top: 0; }
+  top: 0;
+}
 
 .mejs__layer {
-  z-index: 1; }
+  z-index: 1;
+}
 
 .mejs__overlay-play {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .mejs__overlay-button {
   background: url("mejs-controls.svg") no-repeat;
   background-position: 0 -39px;
   height: 80px;
-  width: 80px; }
+  width: 80px;
+}
 
 .mejs__overlay:hover > .mejs__overlay-button {
-  background-position: -80px -39px; }
+  background-position: -80px -39px;
+}
 
 .mejs__overlay-loading {
   height: 80px;
-  width: 80px; }
+  width: 80px;
+}
 
 .mejs__overlay-loading-bg-img {
   -webkit-animation: mejs__loading-spinner 1s linear infinite;
@@ -584,16 +763,21 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   display: block;
   height: 80px;
   width: 80px;
-  z-index: 1; }
+  z-index: 1;
+}
 
 @-webkit-keyframes mejs__loading-spinner {
   100% {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
+    transform: rotate(360deg);
+  }
+}
 @keyframes mejs__loading-spinner {
   100% {
     -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
+    transform: rotate(360deg);
+  }
+}
 /* End: LAYERS */
 /* Start: CONTROL BAR */
 .mejs__controls {
@@ -609,12 +793,14 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   padding: 0 10px;
   position: absolute;
   width: 100%;
-  z-index: 3; }
+  z-index: 3;
+}
 
-.mejs__controls:not([style*='display: none']) {
+.mejs__controls:not([style*="display: none"]) {
   background: rgba(255, 0, 0, 0.7);
   background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.35));
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.35)); }
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.35));
+}
 
 .mejs__button,
 .mejs__time,
@@ -623,7 +809,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   height: 40px;
   line-height: 10px;
   margin: 0;
-  width: 32px; }
+  width: 32px;
+}
 
 .mejs__button > button {
   background: transparent url("mejs-controls.svg");
@@ -638,11 +825,13 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   padding: 0;
   position: absolute;
   text-decoration: none;
-  width: 20px; }
+  width: 20px;
+}
 
 /* :focus for accessibility */
 .mejs__button > button:focus {
-  outline: dotted 1px #999; }
+  outline: dotted 1px #999;
+}
 
 .mejs__container-keyboard-inactive a,
 .mejs__container-keyboard-inactive a:focus,
@@ -650,7 +839,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 .mejs__container-keyboard-inactive button:focus,
 .mejs__container-keyboard-inactive [role=slider],
 .mejs__container-keyboard-inactive [role=slider]:focus {
-  outline: 0; }
+  outline: 0;
+}
 
 /* End: CONTROL BAR */
 /* Start: Time (Current / Duration) */
@@ -663,18 +853,22 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   overflow: hidden;
   padding: 16px 6px 0;
   text-align: center;
-  width: auto; }
+  width: auto;
+}
 
 /* End: Time (Current / Duration) */
 /* Start: Play/Pause/Stop */
 .mejs__play > button {
-  background-position: 0 0; }
+  background-position: 0 0;
+}
 
 .mejs__pause > button {
-  background-position: -20px 0; }
+  background-position: -20px 0;
+}
 
 .mejs__replay > button {
-  background-position: -160px 0; }
+  background-position: -160px 0;
+}
 
 /* End: Play/Pause/Stop */
 /* Start: Progress Bar */
@@ -687,7 +881,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   height: 40px;
   margin: 0 10px;
   padding-top: 10px;
-  position: relative; }
+  position: relative;
+}
 
 .mejs__time-total,
 .mejs__time-buffering,
@@ -702,12 +897,14 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   cursor: pointer;
   display: block;
   height: 10px;
-  position: absolute; }
+  position: absolute;
+}
 
 .mejs__time-total {
   background: rgba(255, 255, 255, 0.3);
   margin: 5px 0 0;
-  width: 100%; }
+  width: 100%;
+}
 
 .mejs__time-buffering {
   -webkit-animation: buffering-stripes 2s linear infinite;
@@ -715,31 +912,42 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   background: -webkit-linear-gradient(135deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
   background: linear-gradient(-45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
   background-size: 15px 15px;
-  width: 100%; }
+  width: 100%;
+}
 
 @-webkit-keyframes buffering-stripes {
   from {
-    background-position: 0 0; }
+    background-position: 0 0;
+  }
   to {
-    background-position: 30px 0; } }
+    background-position: 30px 0;
+  }
+}
 @keyframes buffering-stripes {
   from {
-    background-position: 0 0; }
+    background-position: 0 0;
+  }
   to {
-    background-position: 30px 0; } }
+    background-position: 30px 0;
+  }
+}
 .mejs__time-loaded {
-  background: rgba(255, 255, 255, 0.3); }
+  background: rgba(255, 255, 255, 0.3);
+}
 
 .mejs__time-current,
 .mejs__time-handle-content {
-  background: rgba(255, 255, 255, 0.9); }
+  background: rgba(255, 255, 255, 0.9);
+}
 
 .mejs__time-hovered {
   background: rgba(255, 255, 255, 0.5);
-  z-index: 10; }
+  z-index: 10;
+}
 
 .mejs__time-hovered.negative {
-  background: rgba(0, 0, 0, 0.2); }
+  background: rgba(0, 0, 0, 0.2);
+}
 
 .mejs__time-current,
 .mejs__time-buffering,
@@ -754,21 +962,25 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   transform-origin: 0 0;
   -webkit-transition: 0.15s ease-in all;
   transition: 0.15s ease-in all;
-  width: 100%; }
+  width: 100%;
+}
 
 .mejs__time-buffering {
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
-  transform: scaleX(1); }
+  transform: scaleX(1);
+}
 
 .mejs__time-hovered {
   -webkit-transition: height 0.1s cubic-bezier(0.44, 0, 1, 1);
-  transition: height 0.1s cubic-bezier(0.44, 0, 1, 1); }
+  transition: height 0.1s cubic-bezier(0.44, 0, 1, 1);
+}
 
 .mejs__time-hovered.no-hover {
   -webkit-transform: scaleX(0) !important;
   -ms-transform: scaleX(0) !important;
-  transform: scaleX(0) !important; }
+  transform: scaleX(0) !important;
+}
 
 .mejs__time-handle,
 .mejs__time-handle-content {
@@ -779,7 +991,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
   transform: translateX(0);
-  z-index: 11; }
+  z-index: 11;
+}
 
 .mejs__time-handle-content {
   border: 4px solid rgba(255, 255, 255, 0.9);
@@ -790,14 +1003,16 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
-  width: 10px; }
+  width: 10px;
+}
 
 .mejs__time-rail:hover .mejs__time-handle-content,
 .mejs__time-rail .mejs__time-handle-content:focus,
 .mejs__time-rail .mejs__time-handle-content:active {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
-  transform: scale(1); }
+  transform: scale(1);
+}
 
 .mejs__time-float {
   background: #eee;
@@ -812,14 +1027,16 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  width: 36px; }
+  width: 36px;
+}
 
 .mejs__time-float-current {
   display: block;
   left: 0;
   margin: 2px;
   text-align: center;
-  width: 30px; }
+  width: 30px;
+}
 
 .mejs__time-float-corner {
   border: solid 5px #eee;
@@ -834,40 +1051,49 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  width: 0; }
+  width: 0;
+}
 
 .mejs__long-video .mejs__time-float {
   margin-left: -23px;
-  width: 64px; }
+  width: 64px;
+}
 
 .mejs__long-video .mejs__time-float-current {
-  width: 60px; }
+  width: 60px;
+}
 
 .mejs__broadcast {
   color: #fff;
   height: 10px;
   position: absolute;
   top: 15px;
-  width: 100%; }
+  width: 100%;
+}
 
 /* End: Progress Bar */
 /* Start: Fullscreen */
 .mejs__fullscreen-button > button {
-  background-position: -80px 0; }
+  background-position: -80px 0;
+}
 
 .mejs__unfullscreen > button {
-  background-position: -100px 0; }
+  background-position: -100px 0;
+}
 
 /* End: Fullscreen */
 /* Start: Mute/Volume */
 .mejs__mute > button {
-  background-position: -60px 0; }
+  background-position: -60px 0;
+}
 
 .mejs__unmute > button {
-  background-position: -40px 0; }
+  background-position: -40px 0;
+}
 
 .mejs__volume-button {
-  position: relative; }
+  position: relative;
+}
 
 .mejs__volume-button > .mejs__volume-slider {
   -webkit-backface-visibility: hidden;
@@ -883,10 +1109,12 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   width: 25px;
-  z-index: 1; }
+  z-index: 1;
+}
 
 .mejs__volume-button:hover {
-  border-radius: 0 0 4px 4px; }
+  border-radius: 0 0 4px 4px;
+}
 
 .mejs__volume-total {
   background: rgba(255, 255, 255, 0.5);
@@ -898,14 +1126,16 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  width: 2px; }
+  width: 2px;
+}
 
 .mejs__volume-current {
   background: rgba(255, 255, 255, 0.9);
   left: 0;
   margin: 0;
   position: absolute;
-  width: 100%; }
+  width: 100%;
+}
 
 .mejs__volume-handle {
   background: rgba(255, 255, 255, 0.9);
@@ -917,14 +1147,16 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  width: 16px; }
+  width: 16px;
+}
 
 .mejs__horizontal-volume-slider {
   display: block;
   height: 36px;
   position: relative;
   vertical-align: middle;
-  width: 56px; }
+  width: 56px;
+}
 
 .mejs__horizontal-volume-total {
   background: rgba(50, 50, 50, 0.8);
@@ -936,7 +1168,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   padding: 0;
   position: absolute;
   top: 16px;
-  width: 50px; }
+  width: 50px;
+}
 
 .mejs__horizontal-volume-current {
   background: rgba(255, 255, 255, 0.8);
@@ -948,22 +1181,27 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   padding: 0;
   position: absolute;
   top: 0;
-  width: 100%; }
+  width: 100%;
+}
 
 .mejs__horizontal-volume-handle {
-  display: none; }
+  display: none;
+}
 
 /* End: Mute/Volume */
 /* Start: Track (Captions and Chapters) */
 .mejs__captions-button,
 .mejs__chapters-button {
-  position: relative; }
+  position: relative;
+}
 
 .mejs__captions-button > button {
-  background-position: -140px 0; }
+  background-position: -140px 0;
+}
 
 .mejs__chapters-button > button {
-  background-position: -180px 0; }
+  background-position: -180px 0;
+}
 
 .mejs__captions-button > .mejs__captions-selector,
 .mejs__chapters-button > .mejs__chapters-selector {
@@ -977,18 +1215,21 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   position: absolute;
   right: 50%;
   visibility: visible;
-  width: 86px; }
+  width: 86px;
+}
 
 .mejs__chapters-button > .mejs__chapters-selector {
   margin-right: -55px;
-  width: 110px; }
+  width: 110px;
+}
 
 .mejs__captions-selector-list,
 .mejs__chapters-selector-list {
   list-style-type: none !important;
   margin: 0;
   overflow: hidden;
-  padding: 0; }
+  padding: 0;
+}
 
 .mejs__captions-selector-list-item,
 .mejs__chapters-selector-list-item {
@@ -998,12 +1239,14 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   list-style-type: none !important;
   margin: 0 0 6px;
   overflow: hidden;
-  padding: 0; }
+  padding: 0;
+}
 
 .mejs__captions-selector-list-item:hover,
 .mejs__chapters-selector-list-item:hover {
   background-color: #c8c8c8 !important;
-  background-color: rgba(255, 255, 255, 0.4) !important; }
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
 
 .mejs__captions-selector-input,
 .mejs__chapters-selector-input {
@@ -1011,7 +1254,8 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   float: left;
   left: -1000px;
   margin: 3px 3px 0 5px;
-  position: absolute; }
+  position: absolute;
+}
 
 .mejs__captions-selector-label,
 .mejs__chapters-selector-label {
@@ -1020,15 +1264,18 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   font-size: 10px;
   line-height: 15px;
   padding: 4px 10px 0;
-  width: 100%; }
+  width: 100%;
+}
 
 .mejs__captions-selected,
 .mejs__chapters-selected {
-  color: #21f8f8; }
+  color: #21f8f8;
+}
 
 .mejs__captions-translations {
   font-size: 10px;
-  margin: 0 0 5px; }
+  margin: 0 0 5px;
+}
 
 .mejs__captions-layer {
   bottom: 0;
@@ -1037,112 +1284,494 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   left: 0;
   line-height: 20px;
   position: absolute;
-  text-align: center; }
+  text-align: center;
+}
 
 .mejs__captions-layer a {
   color: #fff;
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 .mejs__captions-layer[lang=ar] {
   font-size: 20px;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 .mejs__captions-position {
   bottom: 15px;
   left: 0;
   position: absolute;
-  width: 100%; }
+  width: 100%;
+}
 
 .mejs__captions-position-hover {
-  bottom: 35px; }
+  bottom: 35px;
+}
 
 .mejs__captions-text,
 .mejs__captions-text * {
   background: rgba(20, 20, 20, 0.5);
   box-shadow: 5px 0 0 rgba(20, 20, 20, 0.5), -5px 0 0 rgba(20, 20, 20, 0.5);
   padding: 0;
-  white-space: pre-wrap; }
+  white-space: pre-wrap;
+}
 
 .mejs__container.mejs__hide-cues video::-webkit-media-text-track-container {
-  display: none; }
+  display: none;
+}
 
 /* End: Track (Captions and Chapters) */
 /* Start: Error */
 .mejs__overlay-error {
-  position: relative; }
+  position: relative;
+}
 
 .mejs__overlay-error > img {
   left: 0;
   max-width: 100%;
   position: absolute;
   top: 0;
-  z-index: -1; }
+  z-index: -1;
+}
 
 .mejs__cannotplay,
 .mejs__cannotplay a {
   color: #fff;
-  font-size: 0.8em; }
+  font-size: 0.8em;
+}
 
 .mejs__cannotplay {
-  position: relative; }
+  position: relative;
+}
 
 .mejs__cannotplay p,
 .mejs__cannotplay a {
   display: inline-block;
   padding: 0 15px;
-  width: 100%; }
+  width: 100%;
+}
 
 /* End: Error */
 /* Typography Styles --------------------- */
 .container {
-  font-family: "Mada", sans-serif;
-  width: 100%;
-  padding: 30px;
-  background-color: #FFD9C3;
-  max-width: 1440px; }
+  padding-top: 20px;
+  width: auto;
+  font-family: "SofiaProSoft", sans-serif;
+  background: linear-gradient(180deg, #fff 40%, #5b5b5b 50%);
+}
+@media (min-width: 769px) {
+  .container {
+    margin: 0 auto;
+    width: 100%;
+    background: linear-gradient(-45deg, #5b5b5b 50%, #fff 50%);
+  }
+}
+@media (min-width: 1100px) {
+  .container {
+    margin: 0 auto;
+    padding-top: 80px;
+    width: 1440px;
+    background: linear-gradient(-45deg, #5b5b5b 50%, #fff 50%);
+  }
+}
 
 .project-info {
-  padding: 0 50px 30px;
-  margin: 0 auto;
-  height: auto;
-  margin-bottom: 30px;
-  max-width: 768px;
-  background-color: rgba(255, 255, 255, 0.25);
-  border: 1px solid rgba(0, 0, 0, 0.0975); }
+  margin: 0px;
+  text-align: left;
+}
+@media (min-width: 1100px) {
+  .project-info {
+    margin-bottom: 30px;
+  }
+  .project-info p {
+    padding-left: 50px;
+  }
+}
 
 .video-section {
-  max-width: 768px;
-  margin: 0 auto; }
+  width: auto;
+  top: 200px;
+  margin: 30px 0;
+}
+@media (min-width: 769px) {
+  .video-section {
+    max-width: 800px;
+  }
+  .video-section p {
+    padding-left: 0px;
+    top: 200px;
+  }
+}
+@media (min-width: 1100px) {
+  .video-section {
+    max-width: 800px;
+  }
+  .video-section p {
+    padding-left: 50px;
+    top: 200px;
+  }
+}
 
 h2 {
-  margin: auto;
-  font-size: 26px;
-  color: #fff;
-  font-weight: 400;
-  padding-top: 45px;
-  text-align: center; }
+  margin: 0 auto;
+  font-family: "SofiaProSoft", sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  color: #ccc;
+  width: 300px;
+  font-weight: 700;
+  padding: 50px 0 30px 0;
+  text-align: center;
+}
+@media (min-width: 1100px) {
+  h2 {
+    margin: 0 auto;
+    font-size: 56px;
+    letter-spacing: 1px;
+    color: #000;
+    padding: 50px 9;
+    width: 1440px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+#title {
+  margin: 0;
+  font-size: 21px;
+  color: #000;
+  width: auto;
+  font-weight: 700;
+  padding: 0px;
+  text-align: center;
+}
+@media (min-width: 1100px) {
+  #title {
+    font-size: 40px;
+    color: #000;
+    width: 800px;
+    font-weight: 700;
+    padding: 0 0 0 50px;
+    text-align: left;
+  }
+}
 
 .subhead {
-  font-size: 22px;
-  font-weight: 200;
-  text-align: center; }
+  color: #666;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+}
+@media (min-width: 1100px) {
+  .subhead {
+    color: #666;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 50px;
+  }
+}
 
-.caption-text {
-  font-weight: 500; }
+.caption-text p {
+  font-weight: 500;
+  color: #fff;
+}
+@media (min-width: 1100px) {
+  .caption-text p {
+    padding: 0px;
+  }
+}
 
 .mejs__time-total .mejs__time-slider {
-  background: #fff; }
+  background: #fff;
+}
 
 .mejs__controls {
-  background: rgba(255, 255, 255, 0.5) !important; }
+  background: rgba(255, 255, 255, 0.5) !important;
+}
 
 .mejs__volume-button > .mejs__volume-slider {
-  background: rgba(255, 130, 0, 0.5) !important; }
+  background: rgba(255, 130, 0, 0.5) !important;
+}
 
 .mejs__volume-total {
-  background: rgba(255, 130, 0, 0.5) !important; }
+  background: rgba(255, 130, 0, 0.5) !important;
+}
 
 .mejs__time-total {
-  background: #ff8200 !important; }
+  background: #ff8200 !important;
+}
+
+/* Grid ------------------ */
+.grid__col--1.theme__colors {
+  margin: 0 0.2777777778em 2.7777777778em;
+}
+.grid__col--1.theme__colors:last-of-type {
+  margin-bottom: 2.7777777778em;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--1.theme__colors {
+    margin-bottom: 0.2777777778em;
+  }
+  .grid__col--1.theme__colors:last-child {
+    margin-bottom: 2.2222222222em;
+  }
+}
+
+.grid__col--2.theme__colors {
+  margin: 0 0.2777777778em 2.7777777778em;
+}
+.grid__col--2.theme__colors:last-of-type {
+  margin-bottom: 2.7777777778em;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--2.theme__colors {
+    margin-bottom: 0.2777777778em;
+  }
+  .grid__col--2.theme__colors:last-child {
+    margin-bottom: 2.2222222222em;
+  }
+}
+
+.grid__col--3.theme__colors {
+  margin: 0 0.2777777778em 2.7777777778em;
+}
+.grid__col--3.theme__colors:last-of-type {
+  margin-bottom: 2.7777777778em;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--3.theme__colors {
+    margin-bottom: 0.2777777778em;
+  }
+  .grid__col--3.theme__colors:last-child {
+    margin-bottom: 2.2222222222em;
+  }
+}
+
+.grid__col--4.theme__colors {
+  margin: 0 0.2777777778em 2.7777777778em;
+}
+.grid__col--4.theme__colors:last-of-type {
+  margin-bottom: 2.7777777778em;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--4.theme__colors {
+    margin-bottom: 0.2777777778em;
+  }
+  .grid__col--4.theme__colors:last-child {
+    margin-bottom: 2.2222222222em;
+  }
+}
+
+.grid__col--5.theme__colors {
+  margin: 0 0.2777777778em 2.7777777778em;
+}
+.grid__col--5.theme__colors:last-of-type {
+  margin-bottom: 2.7777777778em;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--5.theme__colors {
+    margin-bottom: 0.2777777778em;
+  }
+  .grid__col--5.theme__colors:last-child {
+    margin-bottom: 2.2222222222em;
+  }
+}
+
+.grid__col--6.theme__colors {
+  margin: 0 0.2777777778em 2.7777777778em;
+}
+.grid__col--6.theme__colors:last-of-type {
+  margin-bottom: 2.7777777778em;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--6.theme__colors {
+    margin-bottom: 0.2777777778em;
+  }
+  .grid__col--6.theme__colors:last-child {
+    margin-bottom: 2.2222222222em;
+  }
+}
+
+.grid__col--7.theme__colors {
+  margin: 0 0.2777777778em 2.7777777778em;
+}
+.grid__col--7.theme__colors:last-of-type {
+  margin-bottom: 2.7777777778em;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--7.theme__colors {
+    margin-bottom: 0.2777777778em;
+  }
+  .grid__col--7.theme__colors:last-child {
+    margin-bottom: 2.2222222222em;
+  }
+}
+
+.grid__col--8.theme__colors {
+  margin: 0 0.2777777778em 2.7777777778em;
+}
+.grid__col--8.theme__colors:last-of-type {
+  margin-bottom: 2.7777777778em;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--8.theme__colors {
+    margin-bottom: 0.2777777778em;
+  }
+  .grid__col--8.theme__colors:last-child {
+    margin-bottom: 2.2222222222em;
+  }
+}
+
+.grid__col--9.theme__colors {
+  margin: 0 0.2777777778em 2.7777777778em;
+}
+.grid__col--9.theme__colors:last-of-type {
+  margin-bottom: 2.7777777778em;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--9.theme__colors {
+    margin-bottom: 0.2777777778em;
+  }
+  .grid__col--9.theme__colors:last-child {
+    margin-bottom: 2.2222222222em;
+  }
+}
+
+.grid__col--10.theme__colors {
+  margin: 0 0.2777777778em 2.7777777778em;
+}
+.grid__col--10.theme__colors:last-of-type {
+  margin-bottom: 2.7777777778em;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--10.theme__colors {
+    margin-bottom: 0.2777777778em;
+  }
+  .grid__col--10.theme__colors:last-child {
+    margin-bottom: 2.2222222222em;
+  }
+}
+
+.grid__col--11.theme__colors {
+  margin: 0 0.2777777778em 2.7777777778em;
+}
+.grid__col--11.theme__colors:last-of-type {
+  margin-bottom: 2.7777777778em;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--11.theme__colors {
+    margin-bottom: 0.2777777778em;
+  }
+  .grid__col--11.theme__colors:last-child {
+    margin-bottom: 2.2222222222em;
+  }
+}
+
+.grid__col--12.theme__colors {
+  margin: 0 0.2777777778em 2.7777777778em;
+}
+.grid__col--12.theme__colors:last-of-type {
+  margin-bottom: 2.7777777778em;
+}
+@media (min-width: 1px) and (max-width: 768px) {
+  .grid__col--12.theme__colors {
+    margin-bottom: 0.2777777778em;
+  }
+  .grid__col--12.theme__colors:last-child {
+    margin-bottom: 2.2222222222em;
+  }
+}
+
+.grid {
+  width: 100%;
+}
+[class*=grid__col--] > .grid {
+  width: 100%;
+}
+
+@media (min-width: 769px) {
+  .grid__col--1 {
+    width: 6.5%;
+  }
+  .grid__col--2 {
+    width: 15%;
+  }
+  .grid__col--3 {
+    width: 23.5%;
+  }
+  .grid__col--4 {
+    width: 32%;
+  }
+  .grid__col--5 {
+    width: 40.5%;
+  }
+  .grid__col--6 {
+    width: 49%;
+  }
+  .grid__col--7 {
+    width: 57.5%;
+  }
+  .grid__col--8 {
+    width: 66%;
+  }
+  .grid__col--9 {
+    width: 74.5%;
+  }
+  .grid__col--10 {
+    width: 83%;
+  }
+  .grid__col--11 {
+    width: 91.5%;
+  }
+  .grid__col--12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  .grid__row {
+    display: flex;
+    justify-content: space-around;
+  }
+  .grid__row .centered {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (min-width: 769px) {
+  .theme__colors {
+    text-align: center;
+  }
+}
+
+.grid__col--4 {
+  margin-top: 0;
+  min-width: 300px;
+}
+@media (min-width: 1100px) {
+  .grid__col--4 {
+    padding: 0 90px;
+    margin: 100px 50px 50px 0px;
+    max-width: 1000px;
+  }
+}
+
+.grid__col--8 {
+  min-width: 300px;
+}
+@media (min-width: 1100px) {
+  .grid__col--8 {
+    padding: 30px 50px;
+  }
+}
+@media (min-width: 1100px) {
+  .grid__col--8 {
+    padding: 30px;
+    max-width: 600px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

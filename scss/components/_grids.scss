@@ -1,0 +1,89 @@
+/* Grid ------------------ */
+
+@for $i from 1 through $g-col-count {
+    .grid__col--#{$i}.theme__colors{
+        @extend %grid;
+        margin: 0  em(5px) em(50px);
+        &:last-of-type {
+            margin-bottom: em(50px);
+        }
+
+        //margin for grid system
+        @include mq(small) {
+            margin-bottom:em(5px);
+            // margin-right: px(15px);
+            &:last-child {
+                margin-bottom: em(40px);
+            }
+         }
+        }
+      }
+
+
+.grid {
+  @extend %clearfix;
+  width: 100%;
+
+      //Make nested grid 100%
+      [class*="grid__col--"] > & {
+          width: 100%;
+      }
+
+  // &__col {
+  //         @include grid-bg-color;
+  //     }
+  }
+
+// Calculate grid columns
+.grid__col {
+      @include mq(medium){
+        @include g-columns;
+  }
+}
+
+
+//flex for grids
+
+.grid {
+    @include mq(medium) {
+        @include e(row) {
+            @include flex(flex, $just: space-around);
+            .centered {
+                display: block;
+                margin: auto;
+            }
+        }
+      }
+}
+
+.theme__colors{
+    @include mq(medium){
+      text-align: center;
+    }
+}
+
+
+.grid__col--4 {
+  margin-top: 0;
+  min-width: 300px;
+
+
+  @include mq(large){
+    padding: 0 90px;
+    margin: 100px 50px 50px 0px;
+    max-width: 1000px;
+  }
+}
+
+.grid__col--8 {
+  min-width: 300px;
+    
+  @include mq(large){
+    padding: 30px 50px;
+  }
+
+  @include mq(large){
+    padding: 30px;
+    max-width: 600px;
+  }
+}
