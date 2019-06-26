@@ -62,16 +62,16 @@
     }
 }
 
-.grid__col--4 {
-  margin-top: 0;
-  min-width: 300px;
-
-  @include mq(large){
-    padding: 0 90px;
-    margin: 100px 50px 50px 0px;
-    max-width: 1000px;
-  }
-}
+//.grid__col--4 {
+//  margin-top: 0;
+//  min-width: 300px;
+//
+//  @include mq(large){
+//    padding: 0 90px;
+//    margin: 100px 50px 50px 0px;
+//    max-width: 1000px;
+//  }
+//}
 
 .grid__col--8 {
   min-width: 300px;
